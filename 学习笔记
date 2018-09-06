@@ -1,0 +1,6 @@
+配置文件作用：
+SpringBoot默认支持properties和YAML两种格式的配置文件。前者格式简单，但是只支持键值对。如果需要表达列表，最好使用YAML格式。
+bootstrap.yml 是被一个父级的 Spring ApplicationContext 加载的。这个父级的 Spring ApplicationContext是先加载的，在加载application.yml 的 ApplicationContext之前。
+
+
+iml是 intellij idea的工程配置文件，里面是当前projec的一些配置信息
