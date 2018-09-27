@@ -9,7 +9,7 @@ bootstrap.yml 是被一个父级的 Spring ApplicationContext 加载的。这个
 
 iml是 intellij idea的工程配置文件，里面是当前projec的一些配置信息
 
-NETFILX CORE组件
+SprindCloud组件
 ----------------
 ### Feign
  
@@ -28,4 +28,4 @@ Feign是一个声明式的伪Http客户端，feign是一个伪客户端，即它
 
  
  ### Eureka
- ![baidu](http://www.baidu.com/img/bdlogo.gif)
+ ![baidu](https://images2018.cnblogs.com/blog/1468241/201809/1468241-20180907151046924-1982054858.png)
