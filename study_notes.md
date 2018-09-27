@@ -11,7 +11,7 @@ iml是 intellij idea的工程配置文件，里面是当前projec的一些配置
 
 NETFILX CORE组件
 ----------------
-# Feign
+### Feign
  
 概念
 Feign是一个声明式的伪Http客户端，feign是一个伪客户端，即它不做任何的请求处理。Feign通过处理注解生成request，从而实现简化HTTP API开发的目的，
@@ -27,4 +27,5 @@ Feign是一个声明式的伪Http客户端，feign是一个伪客户端，即它
 .最后Client被封装到LoadBalanceClient类，这个类结合类Ribbon做到了负载均衡。
 
  
- 
+ ### Eureka
+ ![baidu](http://www.baidu.com/img/bdlogo.gif)
