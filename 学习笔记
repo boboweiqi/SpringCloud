@@ -6,11 +6,14 @@ bootstrap.yml 是被一个父级的 Spring ApplicationContext 加载的。这个
 iml是 intellij idea的工程配置文件，里面是当前projec的一些配置信息
 
 
+NETFILX CORE组件
+
+
 # Feign
 
  
 概念
-feign是一个伪客户端，即它不做任何的请求处理。Feign通过处理注解生成request，从而实现简化HTTP API开发的目的，
+Feign是一个声明式的伪Http客户端，feign是一个伪客户端，即它不做任何的请求处理。Feign通过处理注解生成request，从而实现简化HTTP API开发的目的，
 即开发人员可以使用注解的方式定制request api模板，在发送http request请求之前，feign通过处理注解的方式替换掉request模板中的参数，
 这种实现方式显得更为直接、可理解。
 
